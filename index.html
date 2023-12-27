@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="d-flex align-items-center justify-content-center">
+<div class="container my-5 text-center">
+<div class="system w-75 m-auto p-5 border-0">
+<h2>Smart Login System</h2>
+<div class="mb-0 pb-0 d-none" id="enterName">
+<label for="exambelFromControlInput1" class="form-label"></label>
+<input id="enterName" class="form-control my-3 d-none" placeholder="Enter your name" type="text">
+</div>
+
+<div class="mb-0 pb-0">
+    <label for="exambelFromControlInput1" class="form-label"></label>
+    <input id="email" class="form-control" placeholder="Enter your email" type="email">
+    </div>
+
+    
+<div class="mb-4">
+    <label for="exambelFromControlInput1" class="form-label"></label>
+    <input id="pass" class="form-control my-3" placeholder="Enter your password" type="password">
+    </div>
+<button id="inBtn" type="button" class="btn btn-outline-info d-block w-100" onclick="logIn()">login</button>
+<button id="upBtn" type="button" class="btn btn-outline-info d-none w-100" onclick="signUp()">login</button>
+
+<div class="text mt-5 ">
+    <p class="text-white">Don't have an account? <a id="signUpAnchor"onclick="reverseAnchorText()" class="text-white" href="#">Sign Up</a></p>
+    
+</div>
+</div>
+</div>
+</section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
